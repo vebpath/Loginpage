@@ -1,0 +1,82 @@
+@import url("//fonts.googleapis.com/css?family=Google+Sans:400,500,600,700");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Google Sans", Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: #0cc0df;
+}
+
+:root {
+  --primaryClr: #0088a0;
+  --Radius: 4px;
+  --FSize: 20px;
+}
+
+main {
+  width: 70%;
+  max-width: 500px;
+  background-color: white;
+  border-radius: var(--Radius);
+ overflow: hidden;
+}
+
+header{
+  text-align: center;
+  padding: 10px 0;
+  background-color: var(--primaryClr);
+  color: white;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.input_box{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  padding: 10px;
+  border-radius: var(--Radius);
+  border: 1px solid lightgray;
+  outline: none;
+  font-size: var(--FSize);
+}
+
+button{
+  padding: 10px;
+  background-color: var(--primaryClr);
+  border: none;
+  font-weight: bold;
+  color: white;
+  font-size: var(--FSize);
+  border-radius: var(--Radius);
+}
+
+.newuser{
+  text-align: center;
+}
+a{
+  color: var(--primaryClr);
+}
+
+label{
+  color: rgb(63, 63, 63); 
+}
